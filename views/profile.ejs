@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+    <h2>Welcome, <%= name %>
+    </h2>
+
+    <h3>Your Notes:</h3>
+    <ul>
+        <% notes.forEach((note, index)=> { %>
+            <li>
+                <%= note %>
+                    <form action="/delete-note" method="POST" style="display:inline;">
+                        <input type="hidden" name="noteIndex" value="<%= index %>">
+                        <button type="submit">Delete</button>
+                    </form>
+            </li>
+            <% }) %>
+    </ul>
+
+    <form action="/add-note" method="POST">
+        <label for="note">Add a Note:</label>
+        <input type="text" name="note" id="note">
+        <button type="submit">Add</button>
+    </form>
+
+<%- include("partials/footer") %>

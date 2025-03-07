@@ -1,0 +1,27 @@
+[
+  {
+    "username": "h",
+    "password": "$2b$10$p5jyFGX2eF2RmJJBRVIFaugqTAfCxV9Z/y4k4w87A4RMEu6QyyW6u",
+    "hobbies": [
+      "coding"
+    ],
+    "notes": [
+      "b",
+      "a",
+      " jhbj",
+      "bjbjbij"
+    ]
+  },
+  {
+    "username": "hasan",
+    "password": "$2b$10$cIF1lMjDrElzwwFsREbtJubgbrvyEc..iIwvYZH7Mz5bLf/Uiudcm"
+  },
+  {
+    "username": "hamza",
+    "password": "$2b$10$Wdav0634T1K5KP9f99CI4uKXDurwUroUEITuCfbeat5nduJmluQx2"
+  },
+  {
+    "username": "Chaadu ",
+    "password": "$2b$10$cJ56xcASowqirCA0f6EpL.rnOUJ4fxsahAdDBZxXfLwf2zQ3VhJym"
+  }
+]
